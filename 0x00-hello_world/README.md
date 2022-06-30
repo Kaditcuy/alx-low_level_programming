@@ -13,3 +13,8 @@ This alx-low level programming
 /**
 *Generates only assembled code of a compiled file.
 */
+
+3.Name
+/**
+*Wrote a script that compiles a C file and creates an executable named cisfun.
+*/
