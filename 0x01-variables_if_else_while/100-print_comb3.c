@@ -10,11 +10,11 @@ int main(void)
 	int ch;
 	int n;
 
-	for (ch = 48; ch <= 57; ch++)
+	for (ch = 48; ch <= 57; ch++) /**0123456789*/
 	{
-		for (n = 49; n <= 57; n++)
+		for (n = 49; n <= 57; n++) /**123456789*/
 		{
-			if (n > ch)
+			if (n > ch)   
 			{
 				putchar(ch);
 				putchar(n);
