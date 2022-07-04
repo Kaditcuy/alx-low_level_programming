@@ -6,37 +6,20 @@
 */
 int main(void)
 {
-int i, j;
-int a, b, c, d;
-
-i = 0;
-	while (i < 100)
+int ch;
+int n;
+for (ch = 48; ch <= 57; ch++)
+{
+	for (n = 49; n <= 57; n++)
 	{
-		a = i / 10;
-		b = i % 10;
-		for (j = 0; j < 100; j++)
+		putchar(ch);
+		putchar(n);
+		if (ch != 57 || n != 57)
 		{
-			c = j / 10;
-			d = j % 10;
-
-			if (a < c || (a == c && b < a))
-			{
-				putchar(a + '0');
-				putchar(b + '0');
-				putchar(32);
-				putchar(c + '0');
-				putchar(d + '0');
-
-				if (!(a == 9 && b == 8))
-				{
-					putchar(44);
-					putchar(32);
-				}
-			}
+			putchar(44);
+			putchar(32);
 		}
-i++;
 	}
-	putchar(10);
-
+}
 	return (0);
 }
