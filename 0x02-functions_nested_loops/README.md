@@ -13,3 +13,7 @@ Wrote a function stored in file "1-alphabet.c" that prints the alphabet, in lowe
 Included the function declaration in the main.h header file 
 */
 
+2.10 x alphabet
+/**
+Wrote a function that prints lower case alphabets 10 times followed by a new line and added the protoype/declaration of the function in the header file main.h, so that when it is called in the main.c file the function works properly*/
+
