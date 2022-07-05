@@ -17,3 +17,7 @@ Included the function declaration in the main.h header file
 /**
 Wrote a function that prints lower case alphabets 10 times followed by a new line and added the protoype/declaration of the function in the header file main.h, so that when it is called in the main.c file the function works properly*/
 
+3.islower
+/**
+Wrote a function that checks for lowercase character and returns 0 if it's a lowercase else it returns 1.
+*/
