@@ -42,3 +42,8 @@ Wrote a function that computes the absolute value of an integer.
 Wrote a function that prints the last digit of a number.
 */
 
+8.I'm federal agent Jack Bauer, and today is the longest day of my life
+/**
+Wrote a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+*/
+
