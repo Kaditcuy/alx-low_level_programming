@@ -26,3 +26,9 @@ Wrote a function that checks for lowercase character and returns 0 if it's a low
 /**
 Wrote a function that checks for alphabetic character.
 */
+
+5.Sign
+/**
+Wrote a  function that prints the sign of a number.
+*/
+
