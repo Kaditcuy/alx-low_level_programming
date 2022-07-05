@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
 * print_alphabet - Function to print lowerCase
-* main - Entry point
-*Return: 0 Success
+*
+* Return: null Success
 */
 void print_alphabet(void)
 {
@@ -17,10 +16,3 @@ void print_alphabet(void)
 	_putchar('\n');
 return;
 }
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
