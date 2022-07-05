@@ -21,3 +21,8 @@ Wrote a function that prints lower case alphabets 10 times followed by a new lin
 /**
 Wrote a function that checks for lowercase character and returns 0 if it's a lowercase else it returns 1.
 */
+
+4.isalpha
+/**
+Wrote a function that checks for alphabetic character.
+*/
