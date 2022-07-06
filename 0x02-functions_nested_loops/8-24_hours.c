@@ -17,7 +17,7 @@ void jack_bauer(void)
 			if (h < 10)
 			{
 				_putchar('0');
-				_putchar(h); /** 01,02,03,04,05,06,07,08,09*/
+				_putchar(h + '0'); /** 01,02,03,04,08,09*/
 			}
 			else if (h >= 10)
 			{
