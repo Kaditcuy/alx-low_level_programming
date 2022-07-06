@@ -11,13 +11,11 @@ void times_table(void)
 	int num2;
 	int product;
 	
-	for (num1 = 48; num1 <= 57; num1++)
+	for (num1 = 0; num1 <= 9; num1++)
 	{
-		for (num2 = 48; num2 <= 57; num2++)
+		for (num2 = 0; num2 <= 9; num2++)
 		{		product = num1 * num2;
-				_putchar(product);
-				_putchar(44);
-				_putchar(32);
+				printf("%d, ", product);
 		}
 		putchar('\n');
 	}
