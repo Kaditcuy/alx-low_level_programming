@@ -9,3 +9,8 @@
 /**
 *Wrote a function that swaps the values of two integers.
 */
+
+2.This report, by its very length, defends itself against the risk of being read
+/**
+*Wrote a function that returns the length of a string.
+*/
