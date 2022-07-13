@@ -18,6 +18,8 @@ void puts_half(char *str)
 	{
 		c++;
 	}
+	
+	/** For an even length of characters*/
 	if (c % 2 == 0)
 	{
 		for (i = c / 2; i < c; i++)
@@ -25,6 +27,7 @@ void puts_half(char *str)
 			_putchar(str[i]);
 		}
 	}
+	/** For an odd lenght, of characters*/
 	else
 	{
 		half = (c - 1) / 2;
