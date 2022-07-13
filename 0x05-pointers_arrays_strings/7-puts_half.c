@@ -8,10 +8,9 @@
 */
 void puts_half(char *str)
 {
-	int i,half;
+	int i, half;
 	int c = 0;
-
-	/** 
+	/**
 	* Lenght of array of characters = Strings
 	*/
 
@@ -19,7 +18,6 @@ void puts_half(char *str)
 	{
 		c++;
 	}
-	
 	if (c % 2 == 0)
 	{
 		for (i = c / 2; i < c; i++)
