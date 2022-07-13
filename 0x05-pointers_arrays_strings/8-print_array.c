@@ -16,8 +16,7 @@ void print_array(int *a, int n)
 		printf("%d", a[i]);
 	/**  n-1; means last value or last character of an array or string*/
 		if (i != n - 1)
-			putchar(44);
-		putchar(32);
+			printf(", ");
 	}
 	putchar('\n');
 }
