@@ -9,3 +9,5 @@
 ## 2. strncpy
 * Wrote a function that copies a string.
 
+## 3. strcmp
+* Wrote a function that compares two strings.
