@@ -6,3 +6,6 @@
 ## 1. strncat
 * Wrote a function that concatenates two strings.
 
+## 2. strncpy
+* Wrote a function that copies a string.
+
