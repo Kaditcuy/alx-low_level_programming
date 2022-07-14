@@ -3,3 +3,6 @@
 ## 0. strcat
 * Wrote a function that concatenates two strings.
 
+## 1. strncat
+* Wrote a function that concatenates two strings.
+
