@@ -17,3 +17,12 @@
 
 ## 5. Always look up
 * Wrote a function that changes all lowercase letters of a string to uppercase.
+
+## 6. Expect the best. Prepare for the worst. Capitalize on what comes
+* Wrote a function that capitalizes all words of a string.
+
+## 7. Mozart composed his music not for the elite, but for everybody
+* Wrote a function that encodes a string into 1337.
+
+## 8. rot13
+* Wrote a function that encodes a string using rot13.
