@@ -11,3 +11,6 @@
 
 ## 3. strcmp
 * Wrote a function that compares two strings.
+
+## 4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy
+* Wrote a function that reverses the content of an array of integers.
