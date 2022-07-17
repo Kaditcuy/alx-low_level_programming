@@ -26,3 +26,6 @@
 
 ## 8. rot13
 * Wrote a function that encodes a string using rot13.
+
+## 9. Numbers have life; they're not just symbols on paper
+* Wrote  a function that prints an integer.
