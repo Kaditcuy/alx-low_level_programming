@@ -29,3 +29,6 @@
 
 ## 9. Numbers have life; they're not just symbols on paper
 * Wrote  a function that prints an integer.
+
+## A dream doesn't become reality through magic; it takes sweat, determination and hard work
+* Magic
