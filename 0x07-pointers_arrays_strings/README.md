@@ -1,4 +1,9 @@
 # 0x07. C - Even more pointers, arrays and strings
 
 ## 0. memset
-* Wrote a function that fills a memory with a constant byte
+* Wrote a function that fills a memory with a constant byte.
+
+## 1. memcpy
+* Wrote a function that copies a memory area
+
+
