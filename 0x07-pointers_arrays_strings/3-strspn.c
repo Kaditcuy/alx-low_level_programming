@@ -5,6 +5,7 @@
 *  _strspn - Calculate length of  a prefix substring
 * @s: pointer to char argument
 * @accept: pointer to char argument
+* Return: returns length of similar characters in both string
 */
 unsigned int _strspn(char *s, char *accept)
 {
