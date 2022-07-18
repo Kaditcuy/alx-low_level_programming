@@ -5,7 +5,7 @@
 * _strpbrk - Searches a string for any set of bytes
 *@s: Pointer to char argument
 *@accept: Pointer to char argument
-@Return: Returns matching characters stores in s
+*Return: Returns matching characters stores in s
 */
 char *_strpbrk(char *s, char *accept)
 {
@@ -22,5 +22,5 @@ char *_strpbrk(char *s, char *accept)
 		}
 		s++;
 	}
-	return ('\0');	
+	return ('\0');
 }
