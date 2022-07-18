@@ -6,4 +6,5 @@
 ## 1. memcpy
 * Wrote a function that copies a memory area
 
-
+## 2. strchr
+* Wrote a function that locates a character in a string
