@@ -17,3 +17,6 @@
 
 ## 5.strstr
 * Wrote a function that locates a substring.
+
+## 6. Chess is mental torture
+* Wrote a function that prints a chessboard
