@@ -4,6 +4,7 @@
 /**
 *print_chessboard - prints a  chessboard
 *@(*a)[8]: char argument of array of n rows and 8 columns
+*@a: char argument
 *Return: Mulit-dimensional Array
 */
 void print_chessboard(char (*a)[8])
@@ -20,4 +21,4 @@ void print_chessboard(char (*a)[8])
 				_putchar('\n');
 		}
 	}
-}	
+}
