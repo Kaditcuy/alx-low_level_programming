@@ -11,3 +11,7 @@
 
 ## 3. You mustn't be afraid to dream a little bigger, darling
 * Wrote a recusrive function to print out the factorial of a number
+
+## 4. Once an idea has taken hold of the brain it's almost impossible to eradicate
+* Wrote a recursive function just like pow
+
