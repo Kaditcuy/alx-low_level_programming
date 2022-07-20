@@ -15,3 +15,6 @@
 ## 4. Once an idea has taken hold of the brain it's almost impossible to eradicate
 * Wrote a recursive function just like pow
 
+## 5. Your subconscious is looking for the dreamer
+* Wrote a function that returns the natural square root of a number.
+
