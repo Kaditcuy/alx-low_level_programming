@@ -23,3 +23,6 @@
 
 ## 7. The line of life is a ragged diagonal between duty and desire
 * Wrote a function that prints the sum of the two diagonals of a square matrix of integers.
+
+## 8. Double pointer, double fun
+* Wrote a function that sets the value of a pointer to a char.
