@@ -5,7 +5,7 @@
 *  _pow_recursion - Function to print power of two integers
 *@x: Int argument
 *@y: int argument
-*Return : Power of x^y
+*Return: Power of x^y
 */
 int _pow_recursion(int x, int y)
 {
