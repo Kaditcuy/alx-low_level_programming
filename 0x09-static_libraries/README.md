@@ -1,0 +1,4 @@
+# Static libraries
+* Compiled all the *.c files in my working directory into object files ending with a *.o extension and created annd created an archive or a static library aa you may call it to contain this object files so that the code routines in them or symbols can be called when needed in the process of a building a program, if you ever need a ny of the symbols remember to link the library with the program using it during compilation to produce an executable file, i.e "gcc std=gnu89 main.c -L. -lmy -o quote", where main.c is the program using the library and -L is pointing the compiler to the library in the current directory and -lmy is the name of the library without the lib prefix and the .a suffix and quote is the executable file.
+
+* Created a script that creates a static library for all the *.c files in my current directory, the name of this library is liball which is all
