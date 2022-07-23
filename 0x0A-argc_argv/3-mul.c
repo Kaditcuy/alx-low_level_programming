@@ -5,6 +5,7 @@
 * main - Function that multiplies argumnts from command line
 * @argc: Int argument
 * @argv: Char argument of strings
+* Return: 0 Success
 */
 int main(int argc, char *argv[])
 {
