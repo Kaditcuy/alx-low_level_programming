@@ -8,7 +8,7 @@
 * @argv: Pointer to array of strings argument
 * Return: 0 Success
 */
-int main(int argc,char *argv[])
+int main(int argc, char *argv[])
 {
 	int res, i, j;
 
@@ -32,4 +32,3 @@ int main(int argc,char *argv[])
 	printf("%d\n", res);
 	return (0);
 }
-	
