@@ -2,9 +2,10 @@
 #include <stdlib.h>
 
 /**
-* main - prints the minimum number of coins to make change for an amount of money.
+* main - prints the minimum number of coins to make change for money
 * @argc: Number of arguments to take of type Int
 * @argv: Vector argument of strings
+* Return: 0 Success
 */
 int main(int argc, char *argv[])
 {
@@ -23,13 +24,13 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	for (j = 0; j < 5 && num >= 0; j++)
+	{
+		while (num >= coins[j])
 		{
-			while (num >= coins[j])
-			{
-				result++;
-				num -= coins[j];
-			}
+			result++;
+			num -= coins[j];
 		}
+	}
 
 	printf("%d\n", result);
 	return (0);
