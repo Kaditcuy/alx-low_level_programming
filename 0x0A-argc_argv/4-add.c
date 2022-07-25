@@ -10,9 +10,9 @@
 */
 int main(int argc, char *argv[])
 {
-	int res, i, j;
+	int i, j, sum;
 
-	if (argc == 1)
+	if (argc ==  1)
 	{
 		printf("0\n");
 		return (0);
@@ -21,14 +21,14 @@ int main(int argc, char *argv[])
 	{
 		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			if (argv[i][j] > '9' || argv[i][j] < '0')
+			if (!(isdigit(argv[i][j])))
 			{
 				printf("Error\n");
 				return (1);
 			}
 		}
-		res += atoi(argv[i]);
+		sum += atoi(argv[i]);
 	}
-	printf("%d\n", res);
+	printf("%d\n", sum);
 	return (0);
 }
