@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	opS = argv[2][0];
+	opS = *argv[2];
 
 	if ((opS != '+' && opS != '-' && opS != '*' && opS != '/' && opS != '%')
 		 || strlen(argv[2]) != 1)
