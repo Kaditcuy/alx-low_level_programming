@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "3-calc.h"
 
 /**
@@ -22,16 +21,16 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	arg1 = atoi(argv[1]);
-	arg2 = atoi(argv[3]);
-
-	opS = argv[2][0];
+	opS = *argv[2];
 
 	if (opS != '+' && opS != '-' && opS != '*' && opS != '/' && opS != '%')
 	{
 		printf("Error\n");
 		exit(99);
 	}
+
+	arg1 = atoi(argv[1]);
+	arg2 = atoi(argv[3]);
 
 	if ((opS == '/' || opS == '%') && arg2 == 0)
 	{
