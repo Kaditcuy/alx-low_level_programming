@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 	arg1 = atoi(argv[1]);
 	arg2 = atoi(argv[3]);
 
-	opS = *argv[2];
+	opS = argv[2][0];
 
 	if (opS != '+' && opS != '-' && opS != '*' && opS != '/' && opS != '%')
 	{
