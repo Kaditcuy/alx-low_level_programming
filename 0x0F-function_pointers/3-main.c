@@ -21,9 +21,10 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	opS = *argv[2];
+	opS = argv[2][0];
 
-	if (opS != '+' && opS != '-' && opS != '*' && opS != '/' && opS != '%')
+	if ((opS != '+' && opS != '-' && opS != '*' && opS != '/' && opS != '%')
+		 || strlen(argv[2]) != 1)
 	{
 		printf("Error\n");
 		exit(99);
