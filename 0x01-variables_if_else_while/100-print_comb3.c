@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int ch;
@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (n = 49; n <= 57; n++) /**123456789*/
 		{
-			if (n > ch)   
+			if (n > ch)
 			{
 				putchar(ch);
 				putchar(n);
