@@ -9,6 +9,13 @@
 */
 int (*get_op_func(char *s))(int, int)
 {
+	/**
+	* ops[] - newly created array of type op_t/op
+	*op_t/op - is a struct type that takes a function pointer
+	* and a *char as members.
+	*i.e each element of the array ops is a function pointer
+	* and contains a *char.
+	*/
 	op_t ops[] = {
 		{"+", op_add},
 		{"-", op_sub},
