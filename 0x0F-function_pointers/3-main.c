@@ -15,7 +15,6 @@ int main(int argc, char *argv[])
 	* opS will hold the operating sign gotten from *argv[2]
 	*/
 	char opS;
-	int (*func)(int, int);
 
 	if (argc != 4)
 	{
@@ -25,7 +24,7 @@ int main(int argc, char *argv[])
 
 	arg1 = atoi(argv[1]);
 	arg2 = atoi(argv[3]);
-	func = get_op_func(argv[2]);
+
 	opS = *argv[2];
 
 	if (opS != '+' && opS != '-' && opS != '*' && opS != '/' && opS != '%')
@@ -40,7 +39,7 @@ int main(int argc, char *argv[])
 		exit(100);
 	}
 
-	result = func(arg1, arg2);
+	result = (get_op_func(argv[2]))(arg1, arg2);
 	printf("%d\n", result);
 	return (0);
 }
