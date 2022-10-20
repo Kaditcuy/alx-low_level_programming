@@ -15,3 +15,6 @@ Note that all dictionaries are not implemented using hash tables and there is a 
 
 ### 1. djb2
 * File `1-djb2.c` contains a hash function that is implementing the djb2 algorithim to generate its hash code
+
+### 2. key -> index
+* Wrote a function that gives you the index of a key passed to the "hash_dbj" function, the index is computed by finding the  mod(%) of the hash_function and the size of the array of the hashtable when computed together i.e(`hash_dbj2(key) % size`).
