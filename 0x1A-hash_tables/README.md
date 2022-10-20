@@ -12,3 +12,6 @@ Note that all dictionaries are not implemented using hash tables and there is a 
 
 ### 0. >>> ht = {}
 * Wrote a function that creates a hash table.
+
+### 1. djb2
+* File `1-djb2.c` contains a hash function that is implementing the djb2 algorithim to generate its hash code
