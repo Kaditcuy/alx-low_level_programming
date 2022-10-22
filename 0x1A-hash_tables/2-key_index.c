@@ -5,7 +5,7 @@
 * @key: key to pass to function
 * @size: Size of the array of the hashtable
 *
-* Return: index at which the key/value pair should be stored in the array of the hash table
+* Return: index at which the key/value pair should be stored in hashtable.
 */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
